@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/Kayla312/liri-node-app/issues"
   },
-  "homepage": "https://github.com/Kayla312/liri-node-app#readme"
+  "homepage": "https://github.com/Kayla312/liri-node-app#readme",
+  "dependencies": {
+    "bandsintown": "^1.0.1",
+    "dotenv": "^6.1.0",
+    "moment": "^2.22.2",
+    "omdb": "^0.8.0",
+    "request": "^2.88.0",
+    "spotify": "^0.3.0"
+  }
 }
