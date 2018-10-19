@@ -114,7 +114,7 @@ fs.readFile("random.txt", "utf8", function(error, data) {
     var song = dataArr[1];
     spotify.search({ type: 'track', query: song }, function(err, data) {
         if (err) {
-            console.log("anything__________________________")
+            console.log("YOU HAVE A GOSH DARN ERROR YOU DOOFUS")
           return console.log('Error occurred: ' + err);
         }
        var track = data.tracks.items[0];
